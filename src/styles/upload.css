@@ -1,0 +1,63 @@
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-browser{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.Browse{
+    width: 16%;
+    text-align: center;
+    padding-top: 15px;
+    font-size: large;
+    color: white;
+    background-color: rgba(45, 133, 52, 0.992);
+    
+}
+.Browse:hover{
+    cursor: pointer;
+}
+
+.auth{
+    display: flex;
+    justify-content: space-between;
+}
+
+.location{
+    width: 40%;
+    height: 50px;
+    padding-left: 10px;
+    border: 1px solid black;
+}
+
+.req{
+    color: rgb(0, 34, 255);
+}
+
+.post-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#description{
+height: 60px;
+
+}
+#post{
+    width: 14%;
+    font-size: larger;
+    color: white;
+    background-color: green;
+    margin: 0;
+
+}
