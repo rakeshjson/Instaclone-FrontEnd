@@ -55,7 +55,7 @@ const Upload = () => {
         filename.append("location", fileName.location);
         filename.append("description", fileName.description);
 
-        let data = await axios.post("https://instaclone-app-c06e.onrender.com/posts", filename);
+        let data = await axios.post("https://instaclonebackend-4ygr.onrender.com", filename);
         if (data) {
           setFileName({name: "", description: "", location: "", PostImage: null});
           navigate("/postview");
