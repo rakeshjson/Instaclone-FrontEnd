@@ -1,0 +1,89 @@
+
+h1{
+    color: green;
+}
+
+.home{
+    position: fixed;
+    top: 500px;
+    left: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: yellow;
+    width: var(--s);
+    aspect-ratio: 1;
+    outline: calc(var(--s)/2) solid #0009;
+    outline-offset: calc(var(--s)/-2);
+    cursor: pointer;
+    transition: 0.3s;
+    --s: 140px;
+    --b: 8px; 
+    --g: 14px; 
+    --c: #4ECDC4;
+}
+
+.home:hover{
+    outline: var(--b) solid var(--c);
+    outline-offset: var(--g);
+}
+
+.cam{
+    transition: transform .2s;
+}
+
+form{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 3em;
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+hr{
+    color: #006238;
+
+}
+
+#post{
+    width: 10%;
+    height: 50px;
+    margin-left: 47%;
+    text-decoration: none;  
+}
+
+.post{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+
+#description{
+    width: 100%;
+    height: 90px;
+    padding-left: 10px;
+    font-size: large;
+}
+
+#file{
+    visibility: hidden;
+}
+
+#choose{
+    width: 93%;
+    height: 50px;
+    padding-left: 10px;
+}
+
+#file{
+    width: 0;
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+}

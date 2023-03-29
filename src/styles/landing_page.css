@@ -1,0 +1,51 @@
+.landing-page{
+    margin-top: 15px;
+    display: flex;
+    gap: 100px;
+    align-items: center; 
+    border:2px solid rgb(191, 188, 188);
+    width: 1400px;
+    height: 900px;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+
+.landing-text{
+    display: flex;
+    flex-direction: column;
+}
+.landing-img{
+    height: 800px;
+    width: 450px;
+    margin-left: 18rem;
+}
+
+.landing-page:hover{
+    border: 2px solid rgb(54, 54, 249);
+}
+#text2 {
+    padding: 8px;
+    width: 145px;
+    margin-left: 20%;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid hsl(154, 100%, 19%) ;
+    font-weight: bolder;
+    font-size: 36px;
+    color: hsl(154, 100%, 19%);
+    background-color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#text1{
+    font-size: 64px;
+    letter-spacing: 0px;
+    color: hsl(154, 100%, 19%);
+}
+
