@@ -10,7 +10,7 @@ function Postview() {
   useEffect(() => {
     setGif(true);
     axios
-      .get("https://instaclone-app-c06e.onrender.com/posts")
+      .get("https://instaclonebackkend.onrender.com")
       .then(function (response) {
         console.log(response);
         setArr(response.data);
